@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-terrafrom {
+terraform {
   backend "s3" {
     bucket  = "one-bucket-s3-testing"
     key     = "testing-onebucket-s3-withterraform.tfstate"
@@ -10,7 +10,7 @@ terrafrom {
   }
 }
 
-resource "aws_s3_bucket" "testbucketone"{
+resource "aws_s3_bucket" "testbucketone" {
   bucket = "testing-onebucket-s3-withterraform"
   acl    = "public-read"
 
@@ -29,7 +29,7 @@ resource "aws_s3_bucket" "testbucketone"{
         }
       ]
     }
-    EOF
+    POLICY
 
      website{
        index_document = "index.html"
