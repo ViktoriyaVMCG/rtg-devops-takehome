@@ -18,3 +18,7 @@ This project is setup to allow devops candidates so show their skills and abilit
 - [Terraform](https://www.terraform.io/docs/index.html)
 - [Github Actions](https://docs.github.com/en/free-pro-team@latest/actions
 )
+
+#Problem
+- The problem that I face and unfortunatelty wasn't able to resolve is
+- Error: Failed to get existing workspaces: S3 bucket does not exist.
